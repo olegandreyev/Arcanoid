@@ -134,7 +134,7 @@ for(var i =20;i<cavas.width;i+=40){
 function run(){
 	ball.checkBounds(10,canvas.width - 10, 10, canvas.height-10)
 	if(!ball.isFrozen && ball.isIntersecOfBar(player1)){
-		ball.setDirection(80+Math.random()*10)
+		ball.setDirection(90+Math.random()*10)
 	}
     bricks = bricks.filter(function(brick){
 		if(brick.isIntersec(ball)){
